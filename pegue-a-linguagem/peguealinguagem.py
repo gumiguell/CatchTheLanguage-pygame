@@ -9,13 +9,13 @@ ALTURA_TELA = 600
 FPS = 60
 
 # Carrega as imagens
-cesta_img = pygame.transform.scale(pygame.image.load('vscode.png'), (50, 50))
+cesta_img = pygame.transform.scale(pygame.image.load('images/vscode.png'), (50, 50))
 linguagem_imgs = [
-    pygame.transform.scale(pygame.image.load('python.png'), (80, 50)),
-    pygame.transform.scale(pygame.image.load('javascript.png'), (50, 50)),
-    pygame.transform.scale(pygame.image.load('java.jpeg'), (80, 50)),
-    pygame.transform.scale(pygame.image.load('csharp.png'), (50, 50)),
-    pygame.transform.scale(pygame.image.load('c++.png'), (50, 50))
+    pygame.transform.scale(pygame.image.load('images/python.png'), (80, 50)),
+    pygame.transform.scale(pygame.image.load('images/javascript.png'), (50, 50)),
+    pygame.transform.scale(pygame.image.load('images/java.jpeg'), (80, 50)),
+    pygame.transform.scale(pygame.image.load('images/csharp.png'), (50, 50)),
+    pygame.transform.scale(pygame.image.load('images/c++.png'), (50, 50))
 ]
 
 # Inicializa o Pygame
